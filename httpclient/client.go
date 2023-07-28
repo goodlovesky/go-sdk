@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/goodlovesky/sdk/trace"
+	"github.com/goodlovesky/go-sdk/trace"
 	"net/http"
 	httpURL "net/url"
 	"time"

@@ -3,7 +3,7 @@ package aes
 import (
 	"encoding/hex"
 	"fmt"
-	"github.com/goodlovesky/sdk/strs"
+	"github.com/goodlovesky/go-sdk/strs"
 	"math/rand"
 	"testing"
 	"time"

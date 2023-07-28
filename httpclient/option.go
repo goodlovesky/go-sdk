@@ -1,7 +1,7 @@
 package httpclient
 
 import (
-	"github.com/goodlovesky/sdk/trace"
+	"github.com/goodlovesky/go-sdk/trace"
 	"go.uber.org/zap"
 	"sync"
 	"time"

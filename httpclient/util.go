@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"context"
 	"crypto/tls"
-	"github.com/goodlovesky/sdk/trace"
+	"github.com/goodlovesky/go-sdk/trace"
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 	"io"

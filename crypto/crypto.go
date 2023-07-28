@@ -1,8 +1,8 @@
 package crypto
 
 import (
-	"github.com/goodlovesky/sdk/crypto/aes"
-	"github.com/goodlovesky/sdk/crypto/sm4"
+	"github.com/goodlovesky/go-sdk/crypto/aes"
+	"github.com/goodlovesky/go-sdk/crypto/sm4"
 )
 
 func EncryptSM4(_sm4 string, msg []byte, iv string) []byte {
