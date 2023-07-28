@@ -1,4 +1,4 @@
-module github.com/goodlovesky/sdk
+module github.com/goodlovesky/go-sdk
 
 go 1.21rc2
 
