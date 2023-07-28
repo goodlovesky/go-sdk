@@ -5,7 +5,8 @@ import (
 )
 
 func TestEncode(t *testing.T) {
-	for i := 1; i < 100; i++ {
+	num := 10000
+	for i := 1; i < num; i++ {
 		t.Log(GenerateInviteCode(uint64(i)))
 	}
 }
