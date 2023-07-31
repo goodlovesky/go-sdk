@@ -1,7 +1,7 @@
 package number
 
 import (
-	"github.com/bwmarrin/snowflake"
+	"github.com/goodlovesky/go-sdk/snowflake"
 	"time"
 )
 
@@ -21,6 +21,8 @@ func InitMachine(startTime string, machineID int64) (err error) {
 	node, err = snowflake.NewNode(machineID)
 	return
 }
+
+// https://tech.meituan.com/2017/04/21/mt-leaf.html
 
 func GenerateUID() int64 {
 	return node.Generate().Int64()
