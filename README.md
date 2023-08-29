@@ -7,3 +7,4 @@
 (6)timer
 (7)trace
 (8)validator
+(9)paginater
